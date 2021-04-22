@@ -7,20 +7,20 @@ $second-color: #519bd8;
   background-position-x: center;
   background-position-y: center;
   height: 400px;
-  
+
   .trasparent {
     width: 95%;
     border-radius: 10px;
     background-color: rgba($color: white, $alpha: 0.7);
-  
+
     h1 {
       width: 100%;
     }
-  
+
     input {
       width: 100%;
     }
-  
+
     .button {
       width: 100%;
     }
@@ -38,6 +38,7 @@ $second-color: #519bd8;
 .about {
   article {
     height: 400px;
+
     img {
       height: 200px;
       width: 200px;
@@ -78,6 +79,7 @@ $second-color: #519bd8;
   .search {
     .trasparent {
       width: 50%;
+
       .button {
         background-color: $primary-color;
       }
