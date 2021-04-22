@@ -30,44 +30,45 @@ $primary-color: #d95e4c;
   flex-direction: column;
 }
 
-header{
+header {
   flex-direction: column;
 
   .topLogo {
     font-size: 20px;
     justify-content: center;
     align-items: center;
-  
+
     .title {
       margin-top: 15px;
       margin-left: 5px;
     }
   }
-  
-  .navigation{
-    ul{
+
+  .navigation {
+    ul {
       justify-content: space-evenly;
     }
   }
-
 }
 
-
+.cursor-pointer {
+  cursor: pointer;
+}
 
 @media only screen and (min-width: 768px) {
-  header{
+  header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
     .navigation {
-      margin-top:15px;
-  
-      a{
-        margin-right:50px;
+      margin-top: 15px;
+
+      a {
+        margin-right: 50px;
       }
-  
-      a{
+
+      a {
         text-decoration: none;
       }
     }
