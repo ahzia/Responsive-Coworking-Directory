@@ -66,16 +66,19 @@ header {
 
 footer {
   background-color: black;
+  
   .footer-top {
     nav {
       ul {
         width: 100%;
         font-size: 14px;
       }
+
       .circle {
         background-color: black;
       }
     }
+    
     .subiscribe-input {
       background-color: black;
       height: 35px;
@@ -96,9 +99,6 @@ footer {
 
       a {
         margin-right: 50px;
-      }
-
-      a {
         text-decoration: none;
       }
     }
@@ -123,6 +123,7 @@ footer {
         div {
           width: 4%;
           font-size: 40px;
+          
           .circle {
             width: 75px;
             height: 75px;
@@ -148,9 +149,10 @@ footer {
           width: 47%;
           font-size: 16px;
         }
-        
+
         div {
           width: 6%;
+
           .circle {
             width: 100px;
             height: 100px;

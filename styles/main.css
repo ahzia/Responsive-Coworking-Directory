@@ -91,7 +91,6 @@ footer .footer-top .subiscribe-input {
 }
 
 @media only screen and (min-width: 768px) {
-  
   header {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -150,8 +149,7 @@ footer .footer-top .subiscribe-input {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  
+@media only screen and (min-width: 1024px) {  
   footer .footer-top nav ul {
     width: 47%;
     font-size: 16px;
