@@ -28,13 +28,11 @@
 
 .flex {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-col {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -65,8 +63,6 @@ header .topLogo .title {
 }
 
 header .navigation ul {
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 
@@ -95,6 +91,7 @@ footer .footer-top .subiscribe-input {
 }
 
 @media only screen and (min-width: 768px) {
+  
   header {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -114,9 +111,6 @@ footer .footer-top .subiscribe-input {
 
   header .navigation a {
     margin-right: 50px;
-  }
-
-  header .navigation a {
     text-decoration: none;
   }
 
@@ -142,7 +136,6 @@ footer .footer-top .subiscribe-input {
     width: 75px;
     height: 75px;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -158,6 +151,7 @@ footer .footer-top .subiscribe-input {
 }
 
 @media only screen and (min-width: 1024px) {
+  
   footer .footer-top nav ul {
     width: 47%;
     font-size: 16px;
