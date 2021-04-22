@@ -9,4 +9,43 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+.text-brand-primary {
+  color: #d95e4c;
+}
+
+.bg-brand-primary {
+  background-color: #d95e4c;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.topLogo {
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topLogo .title {
+  margin-top: 15px;
+  margin-left: 5px;
+}
 /*# sourceMappingURL=main.css.map */

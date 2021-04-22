@@ -11,6 +11,36 @@
   font-family: "Roboto", sans-serif;
 }
 
+$primary-color: #d95e4c;
+
+.text-brand-primary {
+  color: $primary-color;
+}
+
+.bg-brand-primary {
+  background-color: $primary-color;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.topLogo {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
 }
 
