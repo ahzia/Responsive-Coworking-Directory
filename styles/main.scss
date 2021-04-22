@@ -30,18 +30,48 @@ $primary-color: #d95e4c;
   flex-direction: column;
 }
 
-.topLogo {
-  font-size: 20px;
-  justify-content: center;
-  align-items: center;
+header{
+  flex-direction: column;
 
-  .title {
-    margin-top: 15px;
-    margin-left: 5px;
+  .topLogo {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  
+    .title {
+      margin-top: 15px;
+      margin-left: 5px;
+    }
   }
+  
+  .navigation{
+    ul{
+      justify-content: space-evenly;
+    }
+  }
+
 }
 
+
+
 @media only screen and (min-width: 768px) {
+  header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    .navigation {
+      margin-top:15px;
+  
+      a{
+        margin-right:50px;
+      }
+  
+      a{
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1024px) {

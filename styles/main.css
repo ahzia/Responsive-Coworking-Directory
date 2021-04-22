@@ -34,7 +34,14 @@
           flex-direction: column;
 }
 
-.topLogo {
+header {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .topLogo {
   font-size: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -44,8 +51,38 @@
           align-items: center;
 }
 
-.topLogo .title {
+header .topLogo .title {
   margin-top: 15px;
   margin-left: 5px;
+}
+
+header .navigation ul {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .navigation {
+    margin-top: 15px;
+  }
+  header .navigation a {
+    margin-right: 50px;
+  }
+  header .navigation a {
+    text-decoration: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
