@@ -3,6 +3,7 @@
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../assets/background.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
+  background-position-y: center;
   height: 500px;
 }
 
@@ -22,5 +23,31 @@
 
 .search .trasparent .button {
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .search .trasparent {
+    width: 70%;
+  }
+  .search .trasparent h1 {
+    width: 100%;
+  }
+  .search .trasparent input {
+    width: 70%;
+  }
+  .search .trasparent .button {
+    width: 20%;
+    display: inline;
+    background-color: dodgerblue;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .search .trasparent {
+    width: 50%;
+  }
+  .search .trasparent .button {
+    background-color: #d95e4c;
+  }
 }
 /*# sourceMappingURL=index.css.map */
