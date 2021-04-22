@@ -29,6 +29,16 @@
   font-size: 40px;
 }
 
+.about article {
+  height: 400px;
+}
+
+.about article img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
 @media only screen and (min-width: 768px) {
   .search .trasparent {
     width: 70%;
@@ -42,7 +52,10 @@
   .search .trasparent .button {
     width: 20%;
     display: inline;
-    background-color: dodgerblue;
+    background-color: #519bd8;
+  }
+  .about article {
+    height: 250px;
   }
 }
 
