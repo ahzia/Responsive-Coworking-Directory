@@ -5,7 +5,6 @@
 :root {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
@@ -27,33 +26,21 @@
 }
 
 .flex {
-  display: -webkit-box;
   display: flex;
 }
 
 .flex-col {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 header {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 header .topLogo {
   font-size: 20px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -92,55 +79,36 @@ footer .footer-top .subiscribe-input {
 
 @media only screen and (min-width: 768px) {
   header {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
   }
-
   header .navigation {
     margin-top: 15px;
   }
-
   header .navigation a {
     margin-right: 50px;
     text-decoration: none;
   }
-
   footer .footer-top nav ul {
     width: 48%;
     font-size: 14px;
   }
-
   footer .footer-top nav .left {
     padding-right: 20px;
   }
-
   footer .footer-top nav .right {
     padding-left: 35px;
   }
-
   footer .footer-top nav div {
     width: 4%;
     font-size: 40px;
   }
-
   footer .footer-top nav div .circle {
     width: 75px;
     height: 75px;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     border: 1px solid white;
     border-radius: 50%;
@@ -154,11 +122,9 @@ footer .footer-top .subiscribe-input {
     width: 47%;
     font-size: 16px;
   }
-
   footer .footer-top nav div {
     width: 6%;
   }
-
   footer .footer-top nav div .circle {
     width: 100px;
     height: 100px;
