@@ -42,17 +42,21 @@
   .search .trasparent {
     width: 70%;
   }
+
   .search .trasparent h1 {
     width: 100%;
   }
+
   .search .trasparent input {
     width: 70%;
   }
+
   .search .trasparent .button {
     width: 20%;
     display: inline;
     background-color: #519bd8;
   }
+
   .about article {
     height: 250px;
   }
@@ -62,6 +66,7 @@
   .search .trasparent {
     width: 50%;
   }
+
   .search .trasparent .button {
     background-color: #d95e4c;
   }

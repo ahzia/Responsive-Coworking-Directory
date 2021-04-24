@@ -87,27 +87,34 @@ footer .footer-top .subiscribe-input {
     justify-content: space-between;
     align-items: center;
   }
+
   header .navigation {
     margin-top: 15px;
   }
+
   header .navigation a {
     margin-right: 50px;
     text-decoration: none;
   }
+
   footer .footer-top nav ul {
     width: 48%;
     font-size: 14px;
   }
+
   footer .footer-top nav .left {
     padding-right: 20px;
   }
+
   footer .footer-top nav .right {
     padding-left: 35px;
   }
+
   footer .footer-top nav div {
     width: 4%;
     font-size: 40px;
   }
+
   footer .footer-top nav div .circle {
     width: 75px;
     height: 75px;
@@ -126,9 +133,11 @@ footer .footer-top .subiscribe-input {
     width: 47%;
     font-size: 16px;
   }
+
   footer .footer-top nav div {
     width: 6%;
   }
+
   footer .footer-top nav div .circle {
     width: 100px;
     height: 100px;

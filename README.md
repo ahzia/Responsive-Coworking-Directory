@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Responsive Design Newsweek Project
+# Capstone Project:Coworkingspace Directory
 
-> This project shows different ways that can help us make our website reponsive to all the screen sizes by using Bootstrap.
+> This is a Responisve 3 pages website based on design by: [PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ![Screenshot](./app_screenshot.png)
 
@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://ahzia.github.io/Responsive-Coworking-Directory/)
 
 
 ## Getting Started
