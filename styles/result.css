@@ -1,0 +1,10 @@
+form input,
+form button,
+form select {
+  height: 35px;
+}
+
+.result article {
+  height: 300px;
+}
+/*# sourceMappingURL=result.css.map */

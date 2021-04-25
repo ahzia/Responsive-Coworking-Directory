@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Files-->
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/result.css" />
+
+    <title>Coworking Spaces Directory</title>
+  </head>
+  <body>
+    <header class="bg-brand-primary flex">
+      <a href="index.html" class="text-decoration-none flex topLogo text-light mx-md-5">
+        <i class="fas fa-map-marker-alt"></i>
+        <p class="title">CoworkingFinder</p>
+      </a>
+      <nav class="navigation">
+        <ul class="flex list-unstyled mx-sm-5">
+          <li>
+            <a class="text-light" href="result.html"
+              ><i class="fas fa-search"></i>
+              <p class="d-none d-xl-inline">Find</p></a
+            >
+          </li>
+          <li>
+            <a class="text-light" href="#"
+              ><i class="fas fa-address-card"></i>
+              <p class="d-none d-xl-inline">About</p></a
+            >
+          </li>
+          <li>
+            <a class="text-light" href="#"
+              ><i class="fas fa-rss"></i>
+              <p class="d-none d-xl-inline">Blog</p></a
+            >
+          </li>
+          <li>
+            <a class="text-light" href="#"
+              ><i class="fas fa-bars"></i>
+              <p class="d-none d-xl-inline">More</p></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="my-5 p-5 bg-light container-fluid">
+        <h1 class="h4 text-center text-secondary my-3">Filter by name,country,education system,school level:</h1>
+        <form class="d-flex justify-content-evenly row py-2">
+          <div class="col-7 col-md-5 col-lg-3">
+            <label class="d-block">Name* </label>
+            <input class="col-12" type="text" />
+          </div>
+          <div class="col-5 col-md-4 col-lg-2">
+            <label class="d-block">Name* </label>
+            <select class="col-12">
+              <option>Primary</option>
+              <option>Primary</option>
+              <option>Primary</option>
+            </select>
+          </div>
+          <div class="col-4 col-md-3 col-lg-1">
+            <label class="d-block">Name* </label>
+            <select class="col-12">
+              <option>Primary</option>
+              <option>Primary</option>
+              <option>Primary</option>
+            </select>
+          </div>
+          <div class="col-4 col-md-3 col-lg-1">
+            <label class="d-block">Name* </label>
+            <select class="col-12">
+              <option>Primary</option>
+              <option>Primary</option>
+              <option>Primary</option>
+            </select>
+          </div>
+          <div class="col-4 col-md-2 col-lg-1">
+            <label class="d-block">Name* </label>
+            <select class="col-12">
+              <option>Primary</option>
+              <option>Primary</option>
+              <option>Primary</option>
+            </select>
+          </div>
+          <div class="col-5 col-md-3 col-lg-1 col-xl-2">
+            <label class="d-block">Name* </label>
+            <select class="col-12">
+              <option>Primary</option>
+              <option>Primary</option>
+              <option>Primary</option>
+            </select>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3 col-xl-2 d-flex align-items-end justify-content-lg-evenly">
+            <button class="btn bg-brand-second text-white">search</button>
+            <button class="btn btn-warning mx-1 mx-lg-0 text-white">Clear Filter</button>
+          </div>
+        </form>
+      </section>
+      <section class="result container-fluid row d-flex justify-content-center">
+        <h4 class="text-center text-secondary">Search Results Found 3 Coworkings:</h4>
+        <a class="col-12 col-md-3 text-decoration-none my-2" href="coworking.html">
+          <article class="bg-brand-primary d-flex align-items-center justify-content-center">
+            <h5 class="text-light my-5">Name:Coworking</h5>
+          </article> </a
+        ><a class="col-12 col-md-3 text-decoration-none my-2" href="coworking.html">
+          <article class="bg-brand-primary d-flex align-items-center justify-content-center">
+            <h5 class="text-light my-5">Name:Coworking</h5>
+          </article> </a
+        ><a class="col-12 col-md-3 text-decoration-none my-2" href="coworking.html">
+          <article class="bg-brand-primary d-flex align-items-center justify-content-center">
+            <h5 class="text-light my-5">Name:Coworking</h5>
+          </article>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-top text-light py-3">
+        <nav class="d-flex mx-5">
+          <ul class="left d-flex justify-content-evenly align-items-center list-unstyled border-top border-bottom my-5">
+            <li>HOME</li>
+            <li>SEARCH</li>
+            <li>ABOUT US</li>
+            <li>ADVERTISE</li>
+          </ul>
+          <div class="my-3 d-none d-md-inline">
+            <div class="circle">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+          </div>
+          <ul
+            class="right d-none d-md-flex justify-content-evenly align-items-center list-unstyled border-top border-bottom my-5"
+          >
+            <li>FACEBOOK</li>
+            <li>TWITTER</li>
+            <li>BLOG</li>
+            <li>GOOGLE+</li>
+          </ul>
+        </nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center">
+              <h5>SUBSCRIBE</h5>
+              <input class="subiscribe-input" type="email" placeholder="Youremail@example.com" />
+              <div class="d-inline py-2 px-4 cursor bg-secondary text-white cursor-pointer">Send</div>
+            </div>
+            <div class="col-12 col-md-4 text-center my-4 my-md-0">
+              <h5>CONTACT</h5>
+              <p>Have A Question?</p>
+              <p class="text-brand-primary">Ah.ziayosfi@gmail.com</p>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+              <h5>About</h5>
+              <p class="d-inline">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tincidunt lacus. Nulla eget sem feugiat
+                nisi viverra volutpat.
+              </p>
+              <p class="text-brand-primary d-inline">Ah.ziayosfi@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-dark text-secondary d-flex flex-column flex-md-row text-center justify-content-between">
+        <div class="p-2">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="p-2">Copyright @ Dastyaar 2021 Designeed by Ahmad zia yousufi</div>
+      </section>
+    </footer>
+    <!--Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome JS-->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+      integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+/* Initialisation  */
+
+*,
+*::after,
+*::before,
+:root {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.body {
+  background-color: black;
+}
+
+$primary-color: #d95e4c;
+$second-color: #519bd8;
+
+.text-brand-primary {
+  color: $primary-color;
+}
+
+.bg-brand-primary {
+  background-color: $primary-color;
+}
+
+.text-brand-second {
+  color: $second-color;
+}
+
+.bg-brand-second {
+  background-color: $second-color;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex-direction: column;
+
+  .topLogo {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      margin-top: 15px;
+      margin-left: 5px;
+    }
+  }
+
+  .navigation {
+    ul {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+footer {
+  background-color: black;
+
+  .footer-top {
+    nav {
+      ul {
+        width: 100%;
+        font-size: 14px;
+      }
+
+      .circle {
+        background-color: black;
+      }
+    }
+
+    .subiscribe-input {
+      background-color: black;
+      height: 35px;
+      width: 60%;
+      border: 1px solid white;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .navigation {
+      margin-top: 15px;
+
+      a {
+        margin-right: 50px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  footer {
+    .footer-top {
+      nav {
+        ul {
+          width: 48%;
+          font-size: 14px;
+        }
+
+        .left {
+          padding-right: 20px;
+        }
+
+        .right {
+          padding-left: 35px;
+        }
+
+        div {
+          width: 4%;
+          font-size: 40px;
+
+          .circle {
+            width: 75px;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: relative;
+            right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    .footer-top {
+      nav {
+        ul {
+          width: 47%;
+          font-size: 16px;
+        }
+
+        div {
+          width: 6%;
+
+          .circle {
+            width: 100px;
+            height: 100px;
+            right: 13px;
+          }
+        }
+      }
+    }
+  }
+}

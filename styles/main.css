@@ -1,0 +1,144 @@
+/* Initialisation  */
+*,
+*::after,
+*::before,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.body {
+  background-color: black;
+}
+
+.text-brand-primary {
+  color: #d95e4c;
+}
+
+.bg-brand-primary {
+  background-color: #d95e4c;
+}
+
+.text-brand-second {
+  color: #519bd8;
+}
+
+.bg-brand-second {
+  background-color: #519bd8;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex-direction: column;
+}
+
+header .topLogo {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+header .topLogo .title {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+header .navigation ul {
+  justify-content: space-evenly;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+footer,
+footer .footer-top nav .circle {
+  background-color: black;
+}
+
+footer .footer-top nav ul {
+  width: 100%;
+  font-size: 14px;
+}
+
+footer .footer-top .subiscribe-input {
+  background-color: black;
+  height: 35px;
+  width: 60%;
+  border: 1px solid white;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .navigation {
+    margin-top: 15px;
+  }
+
+  header .navigation a {
+    margin-right: 50px;
+    text-decoration: none;
+  }
+
+  footer .footer-top nav ul {
+    width: 48%;
+    font-size: 14px;
+  }
+
+  footer .footer-top nav .left {
+    padding-right: 20px;
+  }
+
+  footer .footer-top nav .right {
+    padding-left: 35px;
+  }
+
+  footer .footer-top nav div {
+    width: 4%;
+    font-size: 40px;
+  }
+
+  footer .footer-top nav div .circle {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer .footer-top nav ul {
+    width: 47%;
+    font-size: 16px;
+  }
+
+  footer .footer-top nav div {
+    width: 6%;
+  }
+
+  footer .footer-top nav div .circle {
+    width: 100px;
+    height: 100px;
+    right: 13px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
