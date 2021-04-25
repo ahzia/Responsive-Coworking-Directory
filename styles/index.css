@@ -13,8 +13,8 @@
 }
 
 .search .trasparent h1,
- .search .trasparent input,
-  .search .trasparent .button {
+.search .trasparent input,
+.search .trasparent .button {
   width: 100%;
 }
 
@@ -34,7 +34,7 @@
 
 @media only screen and (min-width: 768px) {
   .search .trasparent,
-   .search .trasparent input {
+  .search .trasparent input {
     width: 70%;
   }
 
