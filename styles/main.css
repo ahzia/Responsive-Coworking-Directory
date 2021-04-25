@@ -61,17 +61,13 @@ header .navigation ul {
   cursor: pointer;
 }
 
-footer {
+footer, footer .footer-top nav .circle {
   background-color: black;
 }
 
 footer .footer-top nav ul {
   width: 100%;
   font-size: 14px;
-}
-
-footer .footer-top nav .circle {
-  background-color: black;
 }
 
 footer .footer-top .subiscribe-input {

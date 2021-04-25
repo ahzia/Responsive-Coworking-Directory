@@ -13,15 +13,7 @@ $second-color: #519bd8;
     border-radius: 10px;
     background-color: rgba($color: white, $alpha: 0.7);
 
-    h1 {
-      width: 100%;
-    }
-
-    input {
-      width: 100%;
-    }
-
-    .button {
+    h1, input, .button {
       width: 100%;
     }
   }
