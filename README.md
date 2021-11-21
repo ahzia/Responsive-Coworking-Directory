@@ -37,10 +37,9 @@ I have made some changes to the content as it was allowed per requirement.
 ## Getting Started
 
 1. Clone the project 
-  `$ git clone https://github.com/ahzia/Coworking-Space-Directory`
+  `$ git clone https://github.com/ahzia/Responsive-Coworking-Directory`
 2. Then open index.html in your browser
 
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -68,4 +67,4 @@ Give a ⭐️ if you like this project!
 
 - Matthew Njuguna & Sam Achola (Design from [Behance](https://www.behance.net/gallery/25563385/PatashuleKE))
 - Icons from [Font Awesome](https://fontawesome.com/)
-
+- [Microverse] (https://www.microverse.org/)
